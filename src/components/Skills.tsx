@@ -13,7 +13,7 @@ const SkillsSection = () => {
       initial={{ y: 50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ delay: 1, duration: 1 }}
-      className="w-full max-w-4xl p-4 mx-auto mt-10 bg-gray-900 text-white"
+      className="w-full max-w-4xl p-4 mx-auto mt-10 bg-neutral-950 text-white"
     >
       <h2 className="text-2xl font-bold">Skills</h2>
       <div className="grid grid-cols-2 gap-4 mt-4 md:grid-cols-4">

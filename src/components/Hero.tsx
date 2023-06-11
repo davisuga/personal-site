@@ -17,7 +17,7 @@ const Hero = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <GithubLogo className="text-white hover:text-neutral-400" />
+          <GithubLogo size={42} className="text-white hover:text-neutral-400" />
         </a>
         <a
           href="https://linkedin.com/in/davisuga/"
@@ -25,7 +25,7 @@ const Hero = () => {
           rel="noopener noreferrer"
         >
           <LinkedinLogo
-            size="2x"
+            size={42}
             className="text-white hover:text-neutral-400"
           />
         </a>
