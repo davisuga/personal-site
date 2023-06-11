@@ -1,17 +1,9 @@
-import {
-  faJs,
-  faNodeJs,
-  faPython,
-  faReact,
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
 
 const skills = [
-  { name: "React", icon: faReact },
-  { name: "JavaScript", icon: faJs },
-  { name: "Node.js", icon: faNodeJs },
-  { name: "Python", icon: faPython },
+  { name: "React" },
+  { name: "JavaScript" },
+  { name: "Node.js" },
   // Add more skills here...
 ];
 
@@ -33,7 +25,7 @@ const SkillsSection = () => {
             transition={{ duration: 0.5 }}
             className="flex items-center space-x-2"
           >
-            <FontAwesomeIcon icon={skill.icon} className="text-2xl" />
+            {/* {skill.icon} */}
             <span>{skill.name}</span>
           </motion.div>
         ))}

@@ -1,5 +1,4 @@
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -18,19 +17,14 @@ const Hero = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon
-            icon={faGithub}
-            size="2x"
-            className="text-white hover:text-neutral-400"
-          />
+          <GithubLogo className="text-white hover:text-neutral-400" />
         </a>
         <a
           href="https://linkedin.com/in/davisuga/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon
-            icon={faLinkedin}
+          <LinkedinLogo
             size="2x"
             className="text-white hover:text-neutral-400"
           />
