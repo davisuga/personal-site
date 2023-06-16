@@ -50,7 +50,7 @@ dependencies:
 
 devDependencies:
   '@cloudflare/next-on-pages':
-    specifier: 0.0.0-e48c4a0
+    specifier: https://prerelease-registry.devprod.cloudflare.dev/next-on-pages/runs/5288727385/npm-package-next-on-pages-317
     version: 0.0.0-e48c4a0(vercel@30.2.2)(wrangler@3.1.0)
 
 packages:
